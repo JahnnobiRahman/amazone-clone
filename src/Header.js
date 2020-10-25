@@ -16,8 +16,11 @@ function Header() {
                 /deVHZ3fn14mk1eX0XpAoICAgICAgICAgI
                 CAgICAgICAgICAgICAgICAgICAgICAgICAgICAgI
                 /K/wH0RqGxs00JxwAAAAAElFTkSuQmCC"
+
+            alt=""
             />
             
+           
 
             <div
                 className="header__search">
@@ -74,8 +77,7 @@ function Header() {
 
                 <div className="header__optionBasket">
                     <ShoppingBasketIcon />
-                    <span className = "header__optionLineTwo
-                        header__basketCount">0
+                    <span className = "header__optionLineTwo header__basketCount">0
                     </span>
                 
 
@@ -84,6 +86,7 @@ function Header() {
                  
             </div>
         </div>
+        
     );
 }
 
