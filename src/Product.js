@@ -4,14 +4,14 @@ import StarRating from "./StarRating";
 
 
 
-function Product() {
+function Product({ id, title, image, price }) {
     return (
         <div className = "product">
             <div className="product__info">
-                <p> The Lean Startup</p>
+                <p> {title}</p>
                 <p className="product__price">
                     <small>$</small>
-                    <strong>19.99</strong>
+                    <strong>{price}</strong>
                 </p>
                 <div className="product__rating">
                     <p>
@@ -22,7 +22,7 @@ function Product() {
             </div>
 
             <img 
-                src="https://m.media-amazon.com/images/I/51WIKlio9qL.jpg"
+                src={image}
                 
                 alt=""
             />

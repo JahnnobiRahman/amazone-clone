@@ -2,22 +2,24 @@
     display: flex;
     flex-direction: column;
     z-index:1;
-    justify-content: flex-end;
     align-items: center;
+    justify-content: flex-end;
+    
     background-color: white;
-    margin : 10px;
-    width:100%;
-    padding: 20px;
-    max-width :100px;
-    max-height: 400px;
+    margin : 20px;
+    width: 100%;
+    padding: 30px;
+    max-width :150px;
+    max-height: 350px;
 
 }
 
 .product > img {
-    object-fit: contain;
+    
     max-height: 200px;
     width: 100%;
     margin-bottom: 15px;
+    object-fit: contain;
 }
 
 
@@ -26,8 +28,10 @@
 }
 
 .product__info { 
-    max-height: 100px;
+  
     margin-bottom: 15px;
+    height : 100px;
+  
 }
 
 
